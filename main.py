@@ -23,3 +23,8 @@ LONG_BREAK_MIN = 20
 
 
 # ---------------------------- UI SETUP ------------------------------- #
+window = Tk()
+window.title("Pomodoro Timer")
+window.config(padx=50, pady=100)
+
+window.mainloop()
